@@ -10,4 +10,4 @@ servidor.use (express.json());
 
 servidor.use(agendaController);
 
-servidor.listen(process.env.PORT,() => console.log('api subiu'));
+servidor.listen(process.env.PORT,() => console.log('api subiu')); 

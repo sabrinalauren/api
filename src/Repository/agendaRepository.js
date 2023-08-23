@@ -6,7 +6,7 @@ export async function cmcagenda() {
     let resp = await conexao.query(sql);
     let dados = resp[0];
 
-    return dados;
+    return dados; 
 }
 
 export async function inserir(agenda) {

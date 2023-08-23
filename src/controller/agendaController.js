@@ -3,7 +3,7 @@ import { cmcagenda, inserir }from "../Repository/agendaRepository.js"
 
 
 let endpoints = Router();
-
+ 
 endpoints.get('/cmcagenda', async (req, resp) => {
     let dados = await cmcagenda();
     resp.send(dados);

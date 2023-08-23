@@ -6,6 +6,6 @@ const conexao =  await mysql.createConnection({
     user: process.env.USER,
     password: process.env.PWD
 })
-
+ 
 console.log('BD conectado!');
 export default conexao;
